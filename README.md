@@ -1,5 +1,5 @@
 # twitter-identity-check
-Marks persons you follow so that you don't fall for imposters
+A Chrome extension that marks persons on twitter so that you don't fall for imposters
 
 If you find this extension useful or if it even saved you from getting tricked feel free to leave a donation.
 
