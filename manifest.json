@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Twitter Identity Check",
+  "description": "Mark persons you follow so you don't fall for imposters.",
+  "version": "1.0.1",
+  "browser_action": {
+    "default_icon": "src/twitter_check.png",
+    "default_popup": "src/popup.html",
+    "default_title": "Click for options"
+  },
+  "web_accessible_resources": [
+    "src/inject/*"
+  ],
+  "content_scripts": [{
+    "js": [ "src/content.js" ],
+    "matches": [ "https://twitter.com/*" ]
+  }],
+  "permissions": [
+    "activeTab",
+    "storage"
+  ]
+}

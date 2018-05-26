@@ -1,0 +1,20 @@
+.username.tw-id-check-known {
+  background: #1C88CC;
+  border-radius: 30px;
+  color: #fff;
+  padding: 0 5px;
+}
+
+.username.tw-id-check-known::before {
+  padding: 0 4px 0 0;
+  line-height: 1;
+  font-family: "edgeicons";
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  content: "\f099";
+  display: inline-block;
+  top: 1px;
+  position: relative;
+}

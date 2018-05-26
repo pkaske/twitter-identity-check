@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Twitter Identity Check</title>
+    <style type="text/css">
+      body {
+        margin: 10px;
+        white-space: nowrap;
+      }
+
+      h1 {
+        font-size: 15px;
+      }
+
+      #list {
+        width: 100%;
+        height: 200px;
+        display: block;
+        box-sizing: border-box;
+      }
+
+      #btn {
+        margin-top: 20px;
+      }
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1>Mark Twitter Users</h1>
+    <p>
+      Add the twitter names you want to mark as known to the list.<br>
+      One name per line with the @.
+    </p>
+    <div id="container">
+      <textarea id="list"></textarea>
+      <button id="btn">Save</button>
+    </div>
+  </body>
+</html>
